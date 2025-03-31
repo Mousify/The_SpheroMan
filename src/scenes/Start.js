@@ -21,7 +21,10 @@ export class Start extends Phaser.Scene {
     this.load.audio("background-music", "assets/audio/background_music_start.mp3")
 
     // Load web font
-    this.load.script("webfont", "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js")
+      this.load.script(
+      "webfont",
+      "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+    )
   }
 
   create(data) {
